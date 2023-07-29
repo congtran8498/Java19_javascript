@@ -38,3 +38,19 @@ function sapXep(users){
   return users.sort((a,b) => a.age-b.age)
 }
 console.log(sapXep(users))
+
+//Bài 3:
+function getCountElement(arr){
+  let obj = {}
+  arr.forEach(e => {
+    let count = 0
+    arr.forEach(el => {
+      if(e == el){
+        count ++;
+      }
+    })
+    obj[e] = count
+  })
+  return obj
+}
+console.log(getCountElement(["one", "two", "three", "one", "one", "three"]))
