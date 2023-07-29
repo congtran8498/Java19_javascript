@@ -41,15 +41,13 @@ console.log(sapXep(users))
 
 //Bài 3:
 function getCountElement(arr){
-  let obj = {}
+  const obj = {};
   arr.forEach(e => {
-    let count = 0
-    arr.forEach(el => {
-      if(e == el){
-        count ++;
-      }
-    })
-    obj[e] = count
+    if(obj.hasOwnProperty(e)){
+      obj[e] ++
+    }else{
+      obj[e] = 1
+    }
   })
   return obj
 }
