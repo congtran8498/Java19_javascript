@@ -1,0 +1,32 @@
+#menu {
+  background-color: #e5e5e5;
+}
+
+.title {
+  font-size: 3.75rem;
+  font-family: Oswald, sans-serif;
+}
+
+.des {
+  width: 790px;
+}
+
+.img {
+  width: 255px;
+  height: 225px;
+}
+.footer-text {
+  width: 417px;
+}
+
+#footer{
+  background-color: #333333;
+}
+
+a {
+  color: #f9b99c;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
